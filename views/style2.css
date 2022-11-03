@@ -1,0 +1,229 @@
+/* Page2 */
+:root {
+    --dark-grey: #3C3C3C;
+    --grey: #444444;
+    --black: #000000;
+    --white: #ffffff;
+    --pink-grey: #EFB8C8;
+    --pyp: linear-gradient(76.02deg, #DDA5FF 17.92%, #FFBCBC 60.13%, #FFC73B 98.17%);
+    --pink-bao: rgba(255, 188, 188, 0.32);
+
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.content-container-page2 {
+    display: block;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(76.02deg, #DDA5FF 17.92%, #FFBCBC 60.13%, #FFC73B 98.17%);
+
+}
+
+/* nav */
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.nav-tab {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    padding: 62px 150px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: blue; */
+}
+
+.logo {
+    width: 134px;
+    height: 29px;
+}
+
+.logo a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+
+    display: flex;
+    align-items: center;
+    color: var(--white);
+}
+
+.logo b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+
+    display: flex;
+    align-items: center;
+    color: var(--grey);
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dark-grey);
+    opacity: 0.5;
+    margin: 0 50px;
+}
+
+.nav-items li a.active {
+    opacity: 1;
+}
+
+/* about_us-box */
+.about_us-box {
+    position: absolute;
+    width: 954px;
+    height: 567px;
+    left: 243px;
+    top: 228px;
+
+    background: var(--white);
+    border-radius: 50px;
+}
+
+.text3 {
+    position: absolute;
+    width: 208px;
+    height: 48px;
+    left: 376px;
+    top: 178px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.icon_FB_IG {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    position: absolute;
+    width: 310.17px;
+    height: 105.09px;
+    left: 322px;
+    top: 273px;
+
+    list-style-type: none;
+}
+
+.fa-color {
+    color: #000000;
+}
+
+.img-cat {
+    position: absolute !important;
+    width: 460px;
+    height: 534px;
+    left: 980px;
+    top: 490px !important;
+
+    background: url(images/cat.svg);
+    background-size: cover;
+}
+
+.CONTACT_US-box {
+    position: absolute;
+    width: 954px;
+    height: 567px;
+    left: 243px;
+    top: 228px;
+
+    background: var(--white);
+    border-radius: 50px;
+}
+
+.text4 {
+    position: absolute;
+    width: 263px;
+    height: 48px;
+    left: 349px;
+    top: 178px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+
+}
+
+.icon_EM {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 105.09px;
+    height: 84.07px;
+    left: 268px;
+    top: 262px;
+
+
+}
+
+.text5 {
+    position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 367px;
+    top: 280px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+    color: var(--black);
+}
